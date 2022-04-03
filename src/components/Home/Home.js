@@ -3,6 +3,7 @@ import './Home.css'
 import Place from '../../Assets/Image/place.jpg'
 import useReveiws from '../../hook/useReveiws';
 import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [reviews, setReviews] = useReveiws();
@@ -24,14 +25,16 @@ const Home = () => {
                 <h5> Total Review Received: {reviews.length}</h5>
                 <div className='review-container'>
                     {
-                        reviews.map(review => <Review
+                        reviews.slice(0, 3).map(review => <Review
                             key={review.id}
                             review={review}
                         ></Review>)
                     }
                 </div>
-                <div>
-                    <button>Read All Reviews</button>
+                <div className='review-btn-div'>
+                    <Link to='/reviews'>
+                        <button className='review-btn'>Read All Reviews</button>
+                    </Link>
                 </div>
             </div>
         </div>
