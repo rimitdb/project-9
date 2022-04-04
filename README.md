@@ -6,7 +6,7 @@
 
 ### Website Contents
 
-* Home page display Service Title, short description and an image.
+* Home page display Service Title, short description, an image and 3 Customer reviews.
 
 * Reviews page display all customer reviews
 

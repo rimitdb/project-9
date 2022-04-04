@@ -20,6 +20,19 @@ const Blog = () => {
                 <p>Examples of non-semantic elements: "div"and "span"" - Tells nothing about its content .</p>
                 <p>Examples of semantic elements: "form, table, and article" - Clearly defines its content.</p>
             </div>
+            <div>
+                <h1>What is Inline, Block, Inline-Block Elements?</h1>
+                <h3>inline Elements</h3>
+                <p>Inline element displays the element inline or on the same line. In other words, <br />inline elements do NOT start on a new line and only takes up as much width as its content. <br />So, if you try to set any width and height, it will have NO effects.</p>
+                <p>List of inline elements: <small>span, a, img, em, strong, i, small</small> </p>
+                <br />
+                <h3>block Elements</h3>
+                <p>block elements starts on a NEW line and takes up the full width available. <br />So that means block elements will occupy the entire width of its parent element.</p>
+                <p>List of block elements: <small>div, h1, p, li, section</small></p>
+                <br />
+                <h3>inline-block Elements</h3>
+                <p>inline-block elements displays an element as an inline-level block container. <br />You CAN set height and width values. It’s essentially the same thing as inline, <br />except that you can set height and width values.</p>
+            </div>
         </div>
     );
 };
