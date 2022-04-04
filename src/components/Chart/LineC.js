@@ -1,7 +1,7 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
-const Chart = () => {
+const LineC = () => {
     const data = [
         {
             "month": "Mar",
@@ -43,7 +43,7 @@ const Chart = () => {
     return (
         <LineChart
             width={500}
-            height={300}
+            height={400}
             data={data}
             margin={{
                 top: 5,
@@ -52,8 +52,9 @@ const Chart = () => {
                 bottom: 5,
             }}
         >
+            <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="month" />
-            <YAxis dataKey="sell" />
+            <YAxis />
             <Tooltip />
             <Legend />
             <Line type="monotone" dataKey="sell" stroke="#8884d8" activeDot={{ r: 8 }} />
@@ -63,4 +64,4 @@ const Chart = () => {
     );
 };
 
-export default Chart;
+export default LineC;
