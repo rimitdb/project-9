@@ -1,4 +1,5 @@
 import React from 'react';
+import Chart from '../Chart/Chart';
 import './Blog.css';
 
 const Blog = () => {
