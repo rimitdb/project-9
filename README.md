@@ -1,21 +1,16 @@
-# Travel Your Destination
+# PRODUCT ANALYSIS WEBSITE
 
 ## [Live Site Link](https://iqbal-project-9.netlify.app/)
 
-## [Code Repo Link](https://github.com/programming-hero-web-course-4/product-analysis-website-rimitdb)
+## [Code Repo Link](https://github.com/rimitdb/project-9)
 
 ### Website Contents
 
-* Home page display Service Title, short description, an image and 3 Customer reviews.
+- Home page display Service Title, short description, an image and 3 Customer reviews.
 
-* Reviews page display all customer reviews
+- Reviews page display all customer reviews
 
-* Dashboard page display sales report with different charts
+- Dashboard page display sales report with different charts
 
-* Blog page display following question answers
-
-  => What is ContexAPI?
-
-  => What is Semantic Tag?
-
-  => Difference Between Inline, Block, Inline-Block elements
+####Technology:
+React JS, Bootstrap5, vanilla CSS, ReCharts
