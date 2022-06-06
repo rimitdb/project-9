@@ -12,5 +12,6 @@
 
 - Dashboard page display sales report with different charts
 
-####Technology:
+### Technology:
+
 React JS, Bootstrap5, vanilla CSS, ReCharts
